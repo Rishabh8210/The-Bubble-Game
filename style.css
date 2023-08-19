@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(176, 222, 176);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    height: 78%;
+    width: 80%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.settingScore{
+    background-color: green;
+    height: 70px;
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.settingFeild{
+    /* background-color: rgb(10, 99, 176); */
+    height: 100%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.getBubble{
+    height: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    overflow: hidden;
+    /* background-color: steelblue; */
+}
+h1{
+    color: black;
+}
+
+.bubble{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    cursor: pointer;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(61, 221, 61);
+}
